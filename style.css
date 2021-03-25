@@ -1,0 +1,74 @@
+
+body{
+    line-height: 2;
+    text-align: center;
+}
+
+
+h1,h2,h3{
+  padding: 2% 0;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 3rem;
+}
+
+
+p{
+  width: 30%;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+/* header */
+.container-fluid{
+  padding: 0 3%;
+  background-color: #202020;
+  color: #fff;
+}
+
+.big-pic{
+  width: 90%;
+  position:relative;
+}
+
+.floaters{
+  position: absolute;
+  top: 70%;
+  left: 26%;
+}
+
+.name{
+  font-weight: bolder;
+}
+
+/* about page */
+.about-me{
+  background-color: #AE9B86;
+  padding: 3% 0;
+}
+
+/* portfolio page */
+.my-portfolio{
+  background-color: #202020;
+  color: #fff;
+  padding: 3% 5%;
+}
+
+
+/* media query */
+@media (max-width:1000px) {
+  #header{
+    padding: 0 3%;
+    font-size: 50px;
+  }
+  .floaters{
+    position: static;
+    margin: auto;
+  }
+  .writing{
+    font-size: 2rem;
+  }
+  p{
+    width: 70%;
+  }
+
+}
